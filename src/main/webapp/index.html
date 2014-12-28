@@ -1,11 +1,15 @@
 <html>
 <head>
-<script type="text/javascript" src="js/test.js"></script>
+	<script type="text/javascript" src="js/test.js"></script>
 </head>
 <body>
 	<h2>Hello World!</h2>
 	<h2>Test</h2>
 	<div id="test01">Will change after click.</div>
-	<button onclick="testClick()">Button</button>
+	<button onclick="findDocumentByIdAndChangeContent()">Change Content</button>
+
+	<script>
+	document.write("<p>Generate content by document.write method.</p>");
+	</script>
 </body>
 </html>

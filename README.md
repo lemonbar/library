@@ -8,3 +8,7 @@ comment:
 	use :> to insert tab in vim.
 
 
+Step 1.1: use sublime text 3 to write code, install package control, then install sublimecodeintel package for code auto-complete.
+
+Step 2: create js folder under webapp folder, add test.js file under this folder.
+
