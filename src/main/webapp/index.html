@@ -1,13 +1,19 @@
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<script type="text/javascript" src="js/test.js"></script>
+	<script type="text/javascript" src="js/datelibrary.js"></script>
 </head>
 <body>
 	<h2>Hello World!</h2>
 	<h2>Test</h2>
-	<div id="test01">Will change after click.</div>
-	<button onclick="findDocumentByIdAndChangeContent()">Change Content</button>
+	<div id="test01">Will change after click button 1.</div>
+	<div id="test02">Will change after click button 2.</div>
+	<button onclick="findDocumentByIdAndChangeContent()">Button1</button>
+	<button onclick="findDocumentByIdAndAddEventListener()">Button2</button>
 
+	<div id="weekday">今天是星期几？点击按钮获得</div>
+	<button onclick='setElementByDateWeekday(new Date(), "weekday")'>计算星期</button>
 	<script>
 	document.write("<p>Generate content by document.write method.</p>");
 	</script>
